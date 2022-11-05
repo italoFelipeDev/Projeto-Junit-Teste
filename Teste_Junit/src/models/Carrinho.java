@@ -5,16 +5,15 @@ import java.util.List;
 
 public class Carrinho {
 
-    public Carrinho(String usuario, Double total) {
+    public Carrinho(String usuario) {
         this.usuario = usuario;
-        this.total = total;
     }
 
     private String usuario;
 
     private List<Produto> produtos = new ArrayList<>();
 
-    private Double total;
+    private Double total = 0.0;
 
     public String getUsuario() {
         return usuario;
