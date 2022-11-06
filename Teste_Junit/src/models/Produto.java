@@ -8,6 +8,9 @@ public class Produto {
         this.preco = preco;
     }
 
+    public Produto() {
+    }
+
     private String nome;
 
     private String codigo;

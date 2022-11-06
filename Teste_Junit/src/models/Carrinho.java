@@ -9,6 +9,9 @@ public class Carrinho {
         this.usuario = usuario;
     }
 
+    public Carrinho() {
+    }
+
     private String usuario;
 
     private List<Produto> produtos = new ArrayList<>();
